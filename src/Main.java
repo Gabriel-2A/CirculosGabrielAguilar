@@ -4,9 +4,9 @@ public class Main {
         Circulo nada = new Circulo();
         Circulo cr = new Circulo(3.5f);
 
-        System.out.println(cr.calcularArea());
-        System.out.println(cr.calcularDiametro());
-        System.out.println(cr.calcularCircunferencia());
+        System.out.println("Area -> " + cr.calcularArea());
+        System.out.println("Diametro -> " + cr.calcularDiametro());
+        System.out.println("Circunferencia -> " + cr.calcularCircunferencia());
 
     }
 }
