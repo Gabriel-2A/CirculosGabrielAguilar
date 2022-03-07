@@ -34,4 +34,12 @@ public class Circulo {
         float circunferencia = (float)((2*PI)*radio);
         return circunferencia;
     }
+
+    @Override
+    public String toString() {
+        return "\nRadio = " + radio +
+                "\nArea = " + calcularArea() +
+                "\nDiametro = " + calcularDiametro() +
+                "\nCircunmferencia = " + calcularCircunferencia();
+    }
 }
